@@ -1,0 +1,26 @@
+body {
+    background-color: #7498b6;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat; /*para que la imagen no se repita en todo el fondo*/
+    background-position: center; /*la imagen se posiciona en el centro y se puede mover hacia abajo*/
+    background-attachment: fixed; /*la imagen está en el centro, se puede bajar pero no se mueve*/
+    background-size: cover; /*la imagen cubre todo el fondo*/
+    position: relative;
+}
+
+img {
+    display:block;
+    margin:auto;
+}
+
+.texto {
+    text-align: justify;
+    margin-bottom: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textnav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
