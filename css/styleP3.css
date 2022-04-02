@@ -1,0 +1,71 @@
+body {
+    background-color: #7498b6;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat; /*para que la imagen no se repita en todo el fondo*/
+    background-position: center; /*la imagen se posiciona en el centro y se puede mover hacia abajo*/
+    background-attachment: fixed; /*la imagen está en el centro, se puede bajar pero no se mueve*/
+    background-size: cover; /*la imagen cubre todo el fondo*/
+    position: relative;
+    z-index: 0;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-image: url(../img/FondoNav.jpg);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.logo {
+    width: 175px;
+}
+
+.nav-item{
+    background-color: rgba(189, 224, 240, 0.8);
+}
+
+h1 {
+    background-color: #7498b6;
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.linea {
+    background-color: lightpink;
+    color: lightpink;
+    font-size: x-small;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightsteelblue;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.conejo {
+    text-align: center;
+}
+
+.caballo {
+    text-align: center;
+}
+
+.cuyo {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.anadop {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+}
